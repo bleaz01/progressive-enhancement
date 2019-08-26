@@ -15,8 +15,14 @@ a{
 }
 
 body{
+	background-image:url(feuille.png);
+	background: -webkit-linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));
+	background: linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));
 	width: 90%;
 	margin: auto;
+}
+body img{
+	position:cover;
 }
 blockquote{
 	width:45%;
