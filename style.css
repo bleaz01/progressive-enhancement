@@ -1,0 +1,30 @@
+
+p{
+	font-family: Serif;
+	word-spacing:2px;
+	letter-spacing:2px;
+	color:#424045;
+}
+a:hover{
+	color:green;
+
+	}
+
+a{
+	text-decoration:none;
+}
+
+body{
+	width: 90%;
+	margin: auto;
+}
+blockquote{
+	width:45%;
+	margin: auto;
+	padding:30px;
+	font-size:160%;
+	background-color:#D1CCC7;
+	border-style: Firebrick;
+	border: 3px;
+	border-color:red;
+}
