@@ -15,22 +15,30 @@ a{
 }
 
 body{
-	background-image:url(feuille.png);
-	background: -webkit-linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));
-	background: linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));
+    background-image:url(photo/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+	/*background: -webkit-linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));
+	background: linear-gradient(90deg, rgb(35, 109, 102), rgb(100, 170, 89));*/
 	width: 90%;
 	margin: auto;
 }
 body img{
-	position:cover;
+	
 }
 blockquote{
 	width:45%;
 	margin: auto;
 	padding:30px;
 	font-size:160%;
-	background-color:#D1CCC7;
-	border-style: Firebrick;
-	border: 3px;
-	border-color:red;
+	background-color:#D1CCC7; 
+    border-block-start-color:unset;
+    border-left: inset 3px;
+    border-color: Firebrick;
+
+}
+blockquote p{
+    border-left:Firebrick;
+    border: 3px;
 }
