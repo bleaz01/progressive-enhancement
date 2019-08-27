@@ -1,4 +1,6 @@
-
+.heater ol{
+	background-color:yellow;
+}
 p{
 	font-family: Serif;
 	word-spacing:2px;
@@ -7,9 +9,7 @@ p{
 }
 a:hover{
 	color:green;
-
 	}
-
 a{
 	text-decoration:none;
 }
@@ -42,3 +42,14 @@ blockquote p{
     border-left:Firebrick;
     border: 3px;
 }
+.villageois{
+	border-block-start-color:unset;
+	border-left:inset 2px;
+	border-color:red;
+}
+.agriculteur{
+	border-block-start-color:unset;
+	border-left:inset 2px;
+	border-color: yellow;
+}
+
