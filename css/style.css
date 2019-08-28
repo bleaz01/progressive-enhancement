@@ -151,3 +151,21 @@ h2{
 h1{
 	font-family: 'Livvic', sans-serif;
 }
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+  position:fixed;
+  bottom:0;
+  right:0;
+  font-family: 'Livvic', sans-Serif;
+  text-align:center;
+}
+.table{
+	margin-top:50px;
+}
+table{
+	width: 300px;
+}
