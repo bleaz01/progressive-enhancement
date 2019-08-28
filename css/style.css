@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 .heater ol{
 	background-color:yellow;
 }
@@ -8,13 +10,13 @@ p{
 	font-family: Serif;
 	word-spacing:2px;
 	letter-spacing:2px;
-	color:#424045;
+	color:#04042E;
 }
 a:hover{
 	color:green;
 }
-a:visited{
-	color:red;
+/*a:visited{
+	color:red;*/
 }
 .caption{
     display:table-caption;
@@ -42,8 +44,7 @@ body{
 }
 .type{
     display:block;
-	float:left;
-	width:100%;
+	width:50%;
 }
 .people{
 	float:left;
@@ -63,8 +64,10 @@ body{
 .mars img{
     width:100%;
 }
-.story{
-    float:left;
+
+}
+.story {
+	margin-bottom:50px;
 }
 .story img{
 	display:block;
@@ -73,6 +76,7 @@ body{
 .Farmer{
 	float:left;
 	width:200px;
+	margin:none;
 }
 .Farmer img{
 	width:100%;
@@ -81,18 +85,18 @@ body{
 
 
 blockquote{
+
 	width:45%;
 	margin: auto;
+	margin-top:50px;
 	padding:30px;
 	font-size:160%;
 	background-color:#D1CCC7; 
-    
     border-left: inset 3px;
     border-color: Firebrick;
 }
 blockquote p{
-    border-left:Firebrick;
-    border: 3px;
+    border-left:Firebrick 3px;
 }
 .villageois{
 	border-block-start-color:unset;
@@ -137,4 +141,13 @@ blockquote p{
 }
 .deux{
 	background-color:white;
+}
+h3{
+	font-family: 'Livvic', sans-serif;
+}
+h2{
+	font-family: 'Livvic', sans-serif;
+}
+h1{
+	font-family: 'Livvic', sans-serif;
 }
