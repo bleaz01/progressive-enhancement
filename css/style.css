@@ -98,22 +98,17 @@ blockquote p{
 .agriculteur{
 	border-color: yellow;
 }
-.good{
+.good, .bad{
 	color: green;
 	text-transform:capitalize;
 }
 .b{
 	background-image:url("../photo/bien.png");
-	background-repeat:no-repeat;
-	background-size:18px;
-	padding-right:15px;
-	background-position:right;
 }
 .bad{
 	color: red;
-	text-transform:capitalize;
 }
-.m,.c{
+.m, .c, .b{
 	background-image:url("../photo/mal.png");
 	background-repeat:no-repeat;
 	background-size: 15px;
