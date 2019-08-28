@@ -1,5 +1,4 @@
 .heater ol{
-	width:25%;
 	background-color:yellow;
 }
 ul{
@@ -20,6 +19,8 @@ a:visited{
 .caption{
     display:table-caption;
     text-align:center;
+	caption-side:bottom;:w
+
 }
 
 a{
@@ -30,7 +31,7 @@ a{
     position: bottom;
 }
 body{
-    background-image:url(photo/b2.jpg);
+    background-image:url("../photo/b2.jpg");
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
@@ -40,37 +41,41 @@ body{
 	margin: auto;
 }
 .type{
-    display:inline-flex;
-    position:relative;
+    display:block;
+	float:left;
+	width:100%;
+}
+.people{
+	float:left;
+	width:200px;
+}
+.people img{
+	width:100%;
 }
 .preamble{
-    display:inline-flex;
-	position:relative;
+    display:block;
+	float: right;
 }
-.preamble img{
-    position:right;
-    float:right;
-    width:300px;
-    height:300px;
+.mars{
+	float:right;
+	width:200px;
 }
-.type img{
-    width:300px;
-    height:300px;
+.mars img{
+    width:100%;
 }
 .story{
     float:left;
 }
 .story img{
-	position:relative;
+	display:block;
 	float:left;
-	width:300px;
-	height:300px;
+}
+.Farmer{
+	float:left;
+	width:200px;
 }
 .Farmer img{
-	position:relative;
-	float:left;
-	width:300px;
-	height:30px;
+	width:100%;
 }
 
 
@@ -81,10 +86,9 @@ blockquote{
 	padding:30px;
 	font-size:160%;
 	background-color:#D1CCC7; 
-    border-block-start-color:unset;
+    
     border-left: inset 3px;
     border-color: Firebrick;
-
 }
 blockquote p{
     border-left:Firebrick;
@@ -105,7 +109,7 @@ blockquote p{
 	text-transform:capitalize;
 }
 .b{
-	background-image:url("photo/bien.png");
+	background-image:url("../photo/bien.png");
 	background-repeat:no-repeat;
 	background-size:18px;
 	padding-right:15px;
@@ -116,14 +120,14 @@ blockquote p{
 	text-transform:capitalize;
 }
 .m{
-	background-image:url("photo/mal.png");
+	background-image:url("../photo/mal.png");
 	background-repeat:no-repeat;
 	background-size: 15px;
 	padding-right:15px;
 	background-position:right;
 }
 .c{
-	background-image:url("photo/chat.png");
+	background-image:url("../photo/chat.png");
 	background-repeat:no-repeat;
 	background-size:18px;
 	background-position:right;
